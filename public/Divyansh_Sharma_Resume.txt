@@ -1,0 +1,55 @@
+================================================================================
+                                DIVYANSH SHARMA
+                     Full Stack Developer | BCA Graduate
+================================================================================
+Email:    ds4455955@gmail.com
+Location: India (Available for Remote & Full-time Roles Worldwide)
+GitHub:   https://github.com/divyansh-sharma
+LinkedIn: https://www.linkedin.com/in/divyansh-sharma-a6bb48434
+================================================================================
+
+PROFESSIONAL SUMMARY
+--------------------------------------------------------------------------------
+Dedicated Full Stack Developer and BCA Graduate specializing in backend engineering
+with Python, Django, and Django REST Framework (DRF), alongside modern frontend
+development with React.js and Tailwind CSS. Experienced in designing robust
+database architectures, building secure JWT-based RESTful APIs, and implementing
+clean, responsive user interfaces.
+
+TECHNICAL SKILLS
+--------------------------------------------------------------------------------
+* Backend Development: Python, Django, Django REST Framework (DRF), REST APIs,
+  JWT Authentication, Serializers, Middleware
+* Frontend Development: React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS,
+  Responsive Design, Component State Architecture
+* Databases & ORM: PostgreSQL, SQLite, Django ORM, Query Optimization
+  (select_related, prefetch_related), Schema Normalization (1NF-3NF)
+* Developer Tools: Git, GitHub, Postman, Linux / Bash, Agile/Scrum, Vite
+
+FEATURED PROJECTS
+--------------------------------------------------------------------------------
+1. NEXUS COMMERCE ENGINE
+   Stack: Python, Django, DRF, React.js, PostgreSQL, Tailwind CSS
+   - Full-stack e-commerce and inventory platform featuring JWT authentication.
+   - Granular permission classes separating customer workflows from admin operations.
+   - Dynamic catalog filtering, cart persistence, and inventory synchronization.
+   - Optimized ORM queries using select_related/prefetch_related to eliminate N+1 queries.
+
+2. TASKFLOW WORKSPACE
+   Stack: Python, Django, DRF, React.js, SQLite/PostgreSQL
+   - Collaborative sprint and project tracking suite with Kanban boards and milestones.
+   - Modular DRF endpoints with nested serializers for hierarchical task trees.
+   - React interface with optimistic UI updates and live search filtering.
+
+3. RESTFUL API VAULT & AUTH MICROSERVICES
+   Stack: Django, DRF, Token Auth, Swagger/OpenAPI
+   - High-performance boilerplate with token authentication, throttling, and auto-docs.
+   - Comprehensive unit test coverage and automated database migrations.
+
+EDUCATION
+--------------------------------------------------------------------------------
+Bachelor of Computer Applications (BCA) — 2021 to 2024
+Key Coursework: Data Structures & Algorithms, Database Management Systems (DBMS),
+Object-Oriented Programming (OOP), Web Technologies, Operating Systems.
+
+================================================================================
