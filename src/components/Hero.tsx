@@ -26,6 +26,7 @@ import {
   loadStoredProfilePhoto,
   removeStoredProfilePhoto,
 } from '../utils/imageStorage';
+import defaultProfilePic from '../assets/profile-pic.jpg';
 
 interface HeroProps {
   onOpenResume: () => void;
@@ -33,7 +34,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
   const [copied, setCopied] = useState(false);
-  const [customPhoto, setCustomPhoto] = useState<string | null>(null);
+  const [customPhoto, setCustomPhoto] = useState<string | null>(defaultProfilePic);
   const [isProcessing, setIsProcessing] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [feedback, setFeedback] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
@@ -115,8 +116,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
   const handleRemovePhoto = async (e: React.MouseEvent) => {
     e.stopPropagation();
     await removeStoredProfilePhoto();
-    setCustomPhoto(null);
-    setFeedback({ text: 'Custom photo removed', type: 'success' });
+    setCustomPhoto(defaultProfilePic);
+    setFeedback({ text: 'Custom photo removed, restored to default.', type: 'success' });
     setTimeout(() => setFeedback(null), 2500);
   };
 
