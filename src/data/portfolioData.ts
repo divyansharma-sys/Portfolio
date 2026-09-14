@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   bio: 'I build scalable, responsive, and user-focused web applications with a strong focus on backend architecture, robust database models, and modern frontend experiences.',
   detailedBio: 'As a BCA graduate with a deep commitment to modern software engineering, I specialize in architecting backend systems with Python, Django, and Django REST Framework, paired seamlessly with reactive, accessible user interfaces built in React.js. My approach balances backend rigor—database normalization, secure authentication, and optimized API payloads—with intuitive frontend aesthetics.',
   email: 'ds4455955@gmail.com',
-  github: 'https://github.com/divyansh-sharma',
+  github: 'https://github.com/divyansharma-sys',
   linkedin: 'https://www.linkedin.com/in/divyansh-sharma-a6bb48434',
   location: 'India · Available Worldwide for Remote & Full-time Roles',
   status: 'Available for Hire & Contract Opportunities',
@@ -48,7 +48,7 @@ export const PROJECTS_DATA: Project[] = [
       'Custom React context state machine for cart and checkout',
       'Accessible modals, skeleton loading states, and error toasts',
     ],
-    githubUrl: 'https://github.com/divyansh-sharma/nexus-commerce',
+    githubUrl: 'https://github.com/divyansharma-sys/nexus-commerce',
     liveUrl: 'https://nexus-commerce-preview.divyansh.dev',
     accentColor: '#38bdf8', // sky-400
     completionYear: '2024',
@@ -78,7 +78,7 @@ export const PROJECTS_DATA: Project[] = [
       'Modal task details with inline markdown editing and comment streams',
       'Mobile-optimized touch targets for on-the-go sprint updates',
     ],
-    githubUrl: 'https://github.com/divyansh-sharma/taskflow-pro',
+    githubUrl: 'https://github.com/divyansharma-sys/taskflow-pro',
     liveUrl: 'https://taskflow-workspace.divyansh.dev',
     accentColor: '#10b981', // emerald-500
     completionYear: '2024',
@@ -107,7 +107,7 @@ export const PROJECTS_DATA: Project[] = [
       'Pre-configured client integration SDK for React applications',
       'Interactive API Explorer and documentation viewer',
     ],
-    githubUrl: 'https://github.com/divyansh-sharma/authguard-service',
+    githubUrl: 'https://github.com/divyansharma-sys/authguard-service',
     liveUrl: 'https://authguard-docs.divyansh.dev',
     accentColor: '#818cf8', // indigo-400
     completionYear: '2023',
@@ -134,7 +134,7 @@ export const PROJECTS_DATA: Project[] = [
       'Custom hooks for asynchronous data fetching and error recovery',
       'High-contrast visual hierarchy tuned for dark IDE aesthetics',
     ],
-    githubUrl: 'https://github.com/divyansh-sharma/devpulse-analytics',
+    githubUrl: 'https://github.com/divyansharma-sys/devpulse-analytics',
     liveUrl: 'https://devpulse-portal.divyansh.dev',
     accentColor: '#f59e0b', // amber-500
     completionYear: '2023',
