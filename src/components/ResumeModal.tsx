@@ -157,7 +157,7 @@ ${PROJECTS_DATA.map((p) => `- ${p.title} (${p.technologies.join(', ')}): ${p.des
 
                 <div className="shrink-0">
                   <img
-                    src="/profile.jpg"
+                    src="./profile.jpg"
                     alt="Divyansh Sharma"
                     className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl object-cover border-2 border-slate-700/80 shadow-lg"
                     style={{ objectPosition: 'center 60%' }}

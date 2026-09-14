@@ -116,7 +116,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResume }) => {
         >
           <div className="relative w-9 h-9 sm:w-10 sm:h-10 shrink-0 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700/80 overflow-hidden group-hover:border-cyan-500/50 transition-colors shadow-inner">
             <img
-              src="/profile.jpg"
+              src="./profile.jpg"
               alt="Divyansh Sharma"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               style={{ objectPosition: 'center 60%' }}

@@ -33,7 +33,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
   const [copied, setCopied] = useState(false);
-  const [customPhoto, setCustomPhoto] = useState<string | null>('/profile.jpg');
+  const [customPhoto, setCustomPhoto] = useState<string | null>('./profile.jpg');
   const [isProcessing, setIsProcessing] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [feedback, setFeedback] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
@@ -115,7 +115,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
   const handleRemovePhoto = async (e: React.MouseEvent) => {
     e.stopPropagation();
     await removeStoredProfilePhoto();
-    setCustomPhoto('/profile.jpg');
+    setCustomPhoto('./profile.jpg');
     setFeedback({ text: 'Reset to default profile photo', type: 'success' });
     setTimeout(() => setFeedback(null), 2500);
   };

@@ -13,7 +13,7 @@ export const PERSONAL_INFO = {
   linkedin: 'https://www.linkedin.com/in/divyansh-sharma-a6bb48434',
   location: 'India · Available Worldwide for Remote & Full-time Roles',
   status: 'Available for Hire & Contract Opportunities',
-  profilePhoto: '/profile.jpg',
+  profilePhoto: './profile.jpg',
   stats: [
     { label: 'Core Backend', value: 'Django & DRF' },
     { label: 'Frontend Engine', value: 'React & JS' },
