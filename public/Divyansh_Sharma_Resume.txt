@@ -1,55 +1,70 @@
-================================================================================
-                                DIVYANSH SHARMA
-                     Full Stack Developer | BCA Graduate
-================================================================================
-Email:    ds4455955@gmail.com
-Location: India (Available for Remote & Full-time Roles Worldwide)
-GitHub:   https://github.com/divyansh-sharma
+DIVYANSH SHARMA
+Full Stack Developer
+
+Email: ds4455955@gmail.com
+GitHub: https://github.com/divyansharma-sys
 LinkedIn: https://www.linkedin.com/in/divyansh-sharma-a6bb48434
-================================================================================
+Location: India · Available for Full-Time & Remote Roles Worldwide
+
+--------------------------------------------------------------------------------
 
 PROFESSIONAL SUMMARY
+Dedicated Full Stack Developer specializing in backend engineering with Python, Django, and Django REST Framework (DRF), alongside modern frontend development with React.js. Experienced in designing robust database architectures, building secure JWT-based RESTful APIs, and implementing clean, responsive user interfaces.
+
 --------------------------------------------------------------------------------
-Dedicated Full Stack Developer and BCA Graduate specializing in backend engineering
-with Python, Django, and Django REST Framework (DRF), alongside modern frontend
-development with React.js and Tailwind CSS. Experienced in designing robust
-database architectures, building secure JWT-based RESTful APIs, and implementing
-clean, responsive user interfaces.
 
 TECHNICAL SKILLS
+
+- Backend Development: Python, Django, Django REST Framework (DRF), RESTful API Architecture
+- Frontend Development: React.js, JavaScript, HTML, CSS
+- Databases & ORM: PostgreSQL, SQLite, Django ORM, Relational Data Modeling
+- Tools & Methodologies: Git, GitHub, Postman, Webpack/Vite
+
 --------------------------------------------------------------------------------
-* Backend Development: Python, Django, Django REST Framework (DRF), REST APIs,
-  JWT Authentication, Serializers, Middleware
-* Frontend Development: React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS,
-  Responsive Design, Component State Architecture
-* Databases & ORM: PostgreSQL, SQLite, Django ORM, Query Optimization
-  (select_related, prefetch_related), Schema Normalization (1NF-3NF)
-* Developer Tools: Git, GitHub, Postman, Linux / Bash, Agile/Scrum, Vite
+
+PROFESSIONAL EXPERIENCE
+
+Full Stack Developer Intern | IT Infonity
+Duration: 6 Months
+- Contributed to the development of robust web applications using a modern Python and React tech stack.
+- Architected and optimized REST APIs using Python, Django, and Django REST Framework (DRF).
+- Engineered dynamic and highly responsive frontend interfaces utilizing HTML, CSS, JavaScript, and React.js.
+- Collaborated effectively to resolve bugs, optimize database queries, and improve overall application performance.
+
+--------------------------------------------------------------------------------
 
 FEATURED PROJECTS
+
+1. Nexus Commerce Engine — Full-Stack E-Commerce & Inventory Management
+Technologies: Python, Django, Django REST Framework, React.js, PostgreSQL, Tailwind CSS
+- Built a production-grade e-commerce application with token-based JWT authentication and role-based permissions.
+- Developed dynamic catalog filtering, shopping cart state persistence, and administrative inventory analytics.
+- Optimized database queries using Django ORM select_related and prefetch_related.
+- Implemented responsive, accessible client interfaces with optimistic updates and order tracking.
+
+2. TaskFlow Workspace — Collaborative Sprint & Task Management System
+Technologies: Python, Django, DRF, React.js, SQLite/PostgreSQL
+- Engineered modular RESTful APIs for agile project tracking, Kanban boards, and milestone tracking.
+- Implemented nested DRF serializers for complex multi-level task hierarchies and automated audit logs.
+- Integrated optimistic UI dragging updates and responsive layout with zero layout shifts.
+
+3. API Vault & Micro-Services — Secure REST Microservice Template
+Technologies: Django, DRF, Python, Token Auth, Swagger/OpenAPI
+- Designed reusable RESTful API boilerplate with token authentication, custom throttling, and Swagger documentation.
+- Built automated database migrations, unit tests, and structured logging for maintainable enterprise services.
+
 --------------------------------------------------------------------------------
-1. NEXUS COMMERCE ENGINE
-   Stack: Python, Django, DRF, React.js, PostgreSQL, Tailwind CSS
-   - Full-stack e-commerce and inventory platform featuring JWT authentication.
-   - Granular permission classes separating customer workflows from admin operations.
-   - Dynamic catalog filtering, cart persistence, and inventory synchronization.
-   - Optimized ORM queries using select_related/prefetch_related to eliminate N+1 queries.
-
-2. TASKFLOW WORKSPACE
-   Stack: Python, Django, DRF, React.js, SQLite/PostgreSQL
-   - Collaborative sprint and project tracking suite with Kanban boards and milestones.
-   - Modular DRF endpoints with nested serializers for hierarchical task trees.
-   - React interface with optimistic UI updates and live search filtering.
-
-3. RESTFUL API VAULT & AUTH MICROSERVICES
-   Stack: Django, DRF, Token Auth, Swagger/OpenAPI
-   - High-performance boilerplate with token authentication, throttling, and auto-docs.
-   - Comprehensive unit test coverage and automated database migrations.
 
 EDUCATION
---------------------------------------------------------------------------------
-Bachelor of Computer Applications (BCA) — 2021 to 2024
-Key Coursework: Data Structures & Algorithms, Database Management Systems (DBMS),
-Object-Oriented Programming (OOP), Web Technologies, Operating Systems.
 
-================================================================================
+Bachelor of Computer Applications (BCA)
+Himachal Pradesh University (HPU) | 2023 - 2026
+- Core Coursework: Web Technologies, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Data Structures & Algorithms.
+
+--------------------------------------------------------------------------------
+
+CORE COMPETENCIES
+- Relational Schema Design & Database Normalization
+- Clean API Design & HTTP Status Code Conventions
+- Asynchronous Frontend Integration & Error Handling
+- Git Version Control & Collaborative Code Reviews

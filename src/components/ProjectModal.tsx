@@ -7,7 +7,7 @@ import {
   Server,
   Layout,
   CheckCircle2,
-  Calendar,
+
   Layers,
   ArrowRight,
   Database,
@@ -56,10 +56,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             <span className="text-xs font-mono uppercase px-2.5 py-1 rounded-full bg-cyan-950/70 border border-cyan-500/30 text-cyan-300">
               {project.category.toUpperCase()} PROJECT
             </span>
-            <span className="text-xs font-mono text-slate-400 flex items-center gap-1">
-              <Calendar className="w-3.5 h-3.5" />
-              {project.completionYear}
-            </span>
+
           </div>
 
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-white mb-2">

@@ -47,9 +47,13 @@ TECHNICAL SKILLS:
 - Frontend: HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS
 - Core Strengths: Database Normalization, Query Optimization, API Architecture, Git
 
+EXPERIENCE:
+Full Stack Developer Intern — IT Infonity (6 Months)
+- Architected and optimized REST APIs using Python, Django, and DRF.
+- Engineered dynamic frontend interfaces utilizing HTML, CSS, JavaScript, and React.js.
+
 EDUCATION:
-Bachelor of Computer Applications (BCA) — 2021 - 2024
-Key Coursework: Data Structures & Algorithms, DBMS, OOP, Web Technologies
+Bachelor of Computer Applications (BCA) — Himachal Pradesh University (HPU) | 2023 - 2026
 
 FEATURED PROJECTS:
 ${PROJECTS_DATA.map((p) => `- ${p.title} (${p.technologies.join(', ')}): ${p.description}`).join('\n')}
@@ -232,26 +236,47 @@ ${PROJECTS_DATA.map((p) => `- ${p.title} (${p.technologies.join(', ')}): ${p.des
               </div>
             </div>
 
-            {/* Education */}
-            <div>
-              <h2 className="text-xs font-mono uppercase tracking-widest text-cyan-400 print:text-blue-600 font-bold mb-3">
-                Education
-              </h2>
-              <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 print:bg-transparent print:border-none print:p-0">
-                <div className="flex items-center justify-between mb-1">
-                  <h3 className="font-bold text-sm text-white print:text-black">
-                    Bachelor of Computer Applications (BCA)
-                  </h3>
-                  <span className="text-xs font-mono text-slate-400 print:text-slate-600">
-                    2021 — 2024
-                  </span>
+            {/* Experience & Education */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h2 className="text-xs font-mono uppercase tracking-widest text-cyan-400 print:text-blue-600 font-bold mb-3">
+                  Experience
+                </h2>
+                <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 print:bg-transparent print:border-none print:p-0">
+                  <div className="flex items-center justify-between mb-1">
+                    <h3 className="font-bold text-sm text-white print:text-black">
+                      Full Stack Developer Intern
+                    </h3>
+                  </div>
+                  <p className="text-xs text-slate-400 print:text-slate-600 mb-2">
+                    IT Infonity | 6 Months
+                  </p>
+                  <p className="text-xs text-slate-300 print:text-slate-800 leading-relaxed">
+                    Designed and implemented end-to-end features for robust web applications using Python, Django, DRF, and React.js.
+                  </p>
                 </div>
-                <p className="text-xs text-slate-400 print:text-slate-600 mb-2">
-                  Undergraduate Degree in Computer Applications
-                </p>
-                <p className="text-xs text-slate-300 print:text-slate-800 leading-relaxed">
-                  Focus on Data Structures, Algorithms, Relational Database Management Systems (DBMS), Object-Oriented Programming, and Web Engineering.
-                </p>
+              </div>
+              
+              <div>
+                <h2 className="text-xs font-mono uppercase tracking-widest text-cyan-400 print:text-blue-600 font-bold mb-3">
+                  Education
+                </h2>
+                <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 print:bg-transparent print:border-none print:p-0">
+                  <div className="flex items-center justify-between mb-1">
+                    <h3 className="font-bold text-sm text-white print:text-black">
+                      Bachelor of Computer Applications (BCA)
+                    </h3>
+                    <span className="text-xs font-mono text-slate-400 print:text-slate-600">
+                      2023 — 2026
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-400 print:text-slate-600 mb-2">
+                    Himachal Pradesh University (HPU)
+                  </p>
+                  <p className="text-xs text-slate-300 print:text-slate-800 leading-relaxed">
+                    Focus on Web Technologies, Object-Oriented Programming (OOP), and Database Management Systems (DBMS).
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -270,9 +295,6 @@ ${PROJECTS_DATA.map((p) => `- ${p.title} (${p.technologies.join(', ')}): ${p.des
                       <h3 className="font-bold text-sm text-white print:text-black">
                         {proj.title}
                       </h3>
-                      <span className="text-xs font-mono text-cyan-400 print:text-blue-600">
-                        {proj.completionYear}
-                      </span>
                     </div>
                     <p className="text-xs font-mono text-slate-400 print:text-slate-600 mb-2">
                       {proj.subtitle} | Technologies: {proj.technologies.join(', ')}

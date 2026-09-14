@@ -92,9 +92,7 @@ export const Projects: React.FC = () => {
                     <span className="text-[11px] font-mono px-2.5 py-1 rounded-full bg-slate-800/90 border border-slate-700/80 text-cyan-300 uppercase tracking-wide">
                       {project.category.toUpperCase()}
                     </span>
-                    <span className="text-xs font-mono text-slate-500">
-                      {project.completionYear}
-                    </span>
+
                   </div>
 
                   <button

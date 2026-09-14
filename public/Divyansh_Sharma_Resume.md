@@ -1,24 +1,35 @@
 # DIVYANSH SHARMA
-**Full Stack Developer | BCA Graduate**
+**Full Stack Developer**
 
 - **Email:** ds4455955@gmail.com
-- **GitHub:** https://github.com/divyansh-sharma
+- **GitHub:** https://github.com/divyansharma-sys
 - **LinkedIn:** https://www.linkedin.com/in/divyansh-sharma-a6bb48434
 - **Location:** India · Available for Full-Time & Remote Roles Worldwide
 
 ---
 
 ## PROFESSIONAL SUMMARY
-Dedicated Full Stack Developer and BCA Graduate specializing in backend engineering with Python, Django, and Django REST Framework (DRF), alongside modern frontend development with React.js and Tailwind CSS. Experienced in designing robust database architectures, building secure JWT-based RESTful APIs, and implementing clean, responsive user interfaces.
+Dedicated Full Stack Developer specializing in backend engineering with Python, Django, and Django REST Framework (DRF), alongside modern frontend development with React.js. Experienced in designing robust database architectures, building secure JWT-based RESTful APIs, and implementing clean, responsive user interfaces.
 
 ---
 
 ## TECHNICAL SKILLS
 
-- **Backend Development:** Python, Django, Django REST Framework (DRF), RESTful API Architecture, JWT Authentication, Serializers, Middleware
-- **Frontend Development:** React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Responsive Design, State Management
-- **Databases & ORM:** PostgreSQL, SQLite, Django ORM, Query Optimization (`select_related`, `prefetch_related`), Relational Data Modeling
-- **Tools & Methodologies:** Git, GitHub, Postman, Linux / Bash, Agile/Scrum, Webpack/Vite, Unit Testing
+- **Backend Development:** Python, Django, Django REST Framework (DRF), RESTful API Architecture
+- **Frontend Development:** React.js, JavaScript, HTML, CSS
+- **Databases & ORM:** PostgreSQL, SQLite, Django ORM, Relational Data Modeling
+- **Tools & Methodologies:** Git, GitHub, Postman, Webpack/Vite
+
+---
+
+## PROFESSIONAL EXPERIENCE
+
+**Full Stack Developer Intern** | IT Infonity
+*Duration: 6 Months*
+- Contributed to the development of robust web applications using a modern Python and React tech stack.
+- Architected and optimized REST APIs using Python, Django, and Django REST Framework (DRF).
+- Engineered dynamic and highly responsive frontend interfaces utilizing HTML, CSS, JavaScript, and React.js.
+- Collaborated effectively to resolve bugs, optimize database queries, and improve overall application performance.
 
 ---
 
@@ -28,7 +39,7 @@ Dedicated Full Stack Developer and BCA Graduate specializing in backend engineer
 *Technologies: Python, Django, Django REST Framework, React.js, PostgreSQL, Tailwind CSS*
 - Built a production-grade e-commerce application with token-based JWT authentication and role-based permissions.
 - Developed dynamic catalog filtering, shopping cart state persistence, and administrative inventory analytics.
-- Optimized database queries using Django ORM select_related and prefetch_related, reducing response latency by over 40%.
+- Optimized database queries using Django ORM select_related and prefetch_related.
 - Implemented responsive, accessible client interfaces with optimistic updates and order tracking.
 
 ### 2. TaskFlow Workspace — Collaborative Sprint & Task Management System
@@ -47,13 +58,13 @@ Dedicated Full Stack Developer and BCA Graduate specializing in backend engineer
 ## EDUCATION
 
 **Bachelor of Computer Applications (BCA)**  
-*Graduation: 2021 – 2024*
-- Core Coursework: Data Structures & Algorithms (DSA), Database Management Systems (DBMS), Object-Oriented Programming (OOP), Operating Systems, Web Technologies, Software Engineering.
+*Himachal Pradesh University (HPU)* | 2023 – 2026
+- Core Coursework: Web Technologies, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Data Structures & Algorithms.
 
 ---
 
 ## CORE COMPETENCIES
-- Relational Schema Design & Database Normalization (1NF to 3NF)
+- Relational Schema Design & Database Normalization
 - Clean API Design & HTTP Status Code Conventions
 - Asynchronous Frontend Integration & Error Handling
 - Git Version Control & Collaborative Code Reviews
