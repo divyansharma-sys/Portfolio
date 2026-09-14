@@ -69,8 +69,17 @@ export const Projects: React.FC = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-          {filteredProjects.map((project, index) => (
+        {filteredProjects.length === 0 ? (
+          <div className="flex flex-col items-center justify-center py-20 px-4 text-center border border-dashed border-slate-700/50 rounded-3xl bg-slate-900/20">
+            <Layers className="w-10 h-10 text-slate-600 mb-4" />
+            <h3 className="text-lg font-bold text-slate-300 mb-2">Projects Coming Soon</h3>
+            <p className="text-sm text-slate-500 max-w-sm">
+              I am currently curating my latest work. New projects will be uploaded to the portfolio shortly.
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+            {filteredProjects.map((project, index) => (
             <motion.article
               key={project.id}
               initial={{ opacity: 0, y: 20 }}
@@ -178,6 +187,7 @@ export const Projects: React.FC = () => {
             </motion.article>
           ))}
         </div>
+        )}
       </div>
 
       {/* Project Specs Modal */}

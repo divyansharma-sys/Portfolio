@@ -281,36 +281,38 @@ ${PROJECTS_DATA.map((p) => `- ${p.title} (${p.technologies.join(', ')}): ${p.des
             </div>
 
             {/* Featured Projects */}
-            <div>
-              <h2 className="text-xs font-mono uppercase tracking-widest text-cyan-400 print:text-blue-600 font-bold mb-3">
-                Key Engineering Projects
-              </h2>
-              <div className="space-y-4">
-                {PROJECTS_DATA.map((proj) => (
-                  <div
-                    key={proj.id}
-                    className="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 print:bg-transparent print:border-b print:border-slate-200 print:p-0 print:pb-3"
-                  >
-                    <div className="flex items-center justify-between mb-1">
-                      <h3 className="font-bold text-sm text-white print:text-black">
-                        {proj.title}
-                      </h3>
+            {PROJECTS_DATA.length > 0 && (
+              <div>
+                <h2 className="text-xs font-mono uppercase tracking-widest text-cyan-400 print:text-blue-600 font-bold mb-3">
+                  Key Engineering Projects
+                </h2>
+                <div className="space-y-4">
+                  {PROJECTS_DATA.map((proj) => (
+                    <div
+                      key={proj.id}
+                      className="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80 print:bg-transparent print:border-b print:border-slate-200 print:p-0 print:pb-3"
+                    >
+                      <div className="flex items-center justify-between mb-1">
+                        <h3 className="font-bold text-sm text-white print:text-black">
+                          {proj.title}
+                        </h3>
+                      </div>
+                      <p className="text-xs font-mono text-slate-400 print:text-slate-600 mb-2">
+                        {proj.subtitle} | Technologies: {proj.technologies.join(', ')}
+                      </p>
+                      <p className="text-xs text-slate-300 print:text-slate-800 leading-relaxed mb-2">
+                        {proj.description}
+                      </p>
+                      <ul className="text-[11px] text-slate-400 print:text-slate-700 space-y-1 pl-4 list-disc">
+                        {proj.backendHighlights.map((bh, idx) => (
+                          <li key={idx}>{bh}</li>
+                        ))}
+                      </ul>
                     </div>
-                    <p className="text-xs font-mono text-slate-400 print:text-slate-600 mb-2">
-                      {proj.subtitle} | Technologies: {proj.technologies.join(', ')}
-                    </p>
-                    <p className="text-xs text-slate-300 print:text-slate-800 leading-relaxed mb-2">
-                      {proj.description}
-                    </p>
-                    <ul className="text-[11px] text-slate-400 print:text-slate-700 space-y-1 pl-4 list-disc">
-                      {proj.backendHighlights.map((bh, idx) => (
-                        <li key={idx}>{bh}</li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </motion.div>
       </div>

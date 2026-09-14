@@ -33,27 +33,7 @@ Duration: 6 Months
 
 --------------------------------------------------------------------------------
 
-FEATURED PROJECTS
 
-1. Nexus Commerce Engine — Full-Stack E-Commerce & Inventory Management
-Technologies: Python, Django, Django REST Framework, React.js, PostgreSQL, Tailwind CSS
-- Built a production-grade e-commerce application with token-based JWT authentication and role-based permissions.
-- Developed dynamic catalog filtering, shopping cart state persistence, and administrative inventory analytics.
-- Optimized database queries using Django ORM select_related and prefetch_related.
-- Implemented responsive, accessible client interfaces with optimistic updates and order tracking.
-
-2. TaskFlow Workspace — Collaborative Sprint & Task Management System
-Technologies: Python, Django, DRF, React.js, SQLite/PostgreSQL
-- Engineered modular RESTful APIs for agile project tracking, Kanban boards, and milestone tracking.
-- Implemented nested DRF serializers for complex multi-level task hierarchies and automated audit logs.
-- Integrated optimistic UI dragging updates and responsive layout with zero layout shifts.
-
-3. API Vault & Micro-Services — Secure REST Microservice Template
-Technologies: Django, DRF, Python, Token Auth, Swagger/OpenAPI
-- Designed reusable RESTful API boilerplate with token authentication, custom throttling, and Swagger documentation.
-- Built automated database migrations, unit tests, and structured logging for maintainable enterprise services.
-
---------------------------------------------------------------------------------
 
 EDUCATION
 
