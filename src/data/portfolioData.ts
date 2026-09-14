@@ -22,37 +22,34 @@ export const PERSONAL_INFO = {
   ],
 };
 
-// ----------------------------------------------------------------------
-// HOW TO ADD PROJECTS: 
-// 1. Copy the commented-out template below.
-// 2. Paste it inside the empty PROJECTS_DATA array [ ] without the /* */ comments.
-// 3. Fill in your own project details! You can add as many as you want.
-// ----------------------------------------------------------------------
-
 export const PROJECTS_DATA: Project[] = [
-  /*
   {
-    id: 'my-project-1',
-    title: 'Your Project Title Here',
-    subtitle: 'A short subtitle for your project',
-    description: 'A detailed description of what the project does and why you built it.',
-    category: 'fullstack', // Choose from: 'fullstack', 'backend', 'frontend'
-    technologies: ['React.js', 'Python', 'Django', 'Tailwind CSS'],
+    id: 'aura-sound-ecommerce',
+    title: 'Aura Sound E-Commerce',
+    subtitle: "India's Leading Lifestyle Audio & Wearables Brand",
+    description: 'A premium frontend e-commerce platform for wireless earbuds, headphones, smartwatches, speakers, and gaming gear. Designed with a sleek, modern interface prioritizing user experience and product showcase.',
+    category: 'frontend',
+    technologies: ['React.js', 'HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS'],
     features: [
-      'Feature number one goes here',
-      'Feature number two goes here',
+      'Responsive and modern premium user interface',
+      'Dynamic product catalog with visually rich asset presentation',
+      'Interactive shopping cart state functionality',
+      'High-performance animations and seamless transitions',
     ],
     backendHighlights: [
-      'Backend highlight one',
+      'Stateless architecture utilizing local storage for cart persistence',
+      'Optimized asset delivery and fast load times',
     ],
     frontendHighlights: [
-      'Frontend highlight one',
+      'Component-driven architecture using modern React conventions',
+      'State management configured for seamless checkout flows',
+      'Mobile-first responsive design for cross-device compatibility',
     ],
-    githubUrl: 'https://github.com/divyansharma-sys/your-repo-name',
-    liveUrl: 'https://your-live-demo-link.com', // Link to live site
-    accentColor: '#38bdf8', // Hex color for project card accent (e.g. #38bdf8 for light blue)
-  },
-  */
+    githubUrl: 'https://github.com/divyansharma-sys/e-commerce-web',
+    liveUrl: 'https://divyansharma-sys.github.io/e-commerce-web/',
+    accentColor: '#14b8a6', // teal-500
+    completionYear: '2024',
+  }
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [

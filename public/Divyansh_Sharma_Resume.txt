@@ -33,8 +33,16 @@ Duration: 6 Months
 
 --------------------------------------------------------------------------------
 
+FEATURED PROJECTS
 
+1. Aura Sound E-Commerce — Premium Audio & Wearables Platform
+Technologies: React.js, HTML5, CSS3, JavaScript, Tailwind CSS
+- Developed a dynamic e-commerce frontend interface with a visually rich product catalog.
+- Engineered interactive shopping cart state functionality and seamless page transitions.
+- Utilized component-driven React architecture and local storage for stateless cart persistence.
+- Optimized asset delivery ensuring fast load times and cross-device mobile responsiveness.
 
+--------------------------------------------------------------------------------
 EDUCATION
 
 Bachelor of Computer Applications (BCA)
